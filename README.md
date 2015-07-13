@@ -14,10 +14,13 @@ For installing this module, it gives various ways:
   ```
 
 * composer
+
   Add the following line to the file "composer.json":
+
   `"dr/fast-catalog-url-indexer": "*"`
 
 * copy/paste
+
   Download the latest code from github and copy all files to the magento root directory.
 
 By using modman or composer the setting "allow symlinks" must be enabled. After the module is installed, the cache has to be cleared.
