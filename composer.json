@@ -1,0 +1,15 @@
+{
+  "name": "dr/fast-catalog-url-indexer",
+  "type": "magento-module",
+  "description": "Reduces time to index product url rewrites.",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Daniel Rose",
+      "email": "daniel-rose@gmx.de"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <DR_FastCatalogUrlIndexer>
+            <version>1.0.0</version>
+        </DR_FastCatalogUrlIndexer>
+    </modules>
+
+    <global>
+        <helpers>
+            <dr_fastcatalogurlindexer>
+                <class>DR_FastCatalogUrlIndexer_Helper</class>
+            </dr_fastcatalogurlindexer>
+        </helpers>
+
+        <models>
+            <dr_fastcatalogurlindexer>
+                <class>DR_FastCatalogUrlIndexer_Model</class>
+                <resourceModel>dr_fastcatalogurlindexer_resource</resourceModel>
+            </dr_fastcatalogurlindexer>
+            <dr_fastcatalogurlindexer_resource>
+                <class>DR_FastCatalogUrlIndexer_Model_Resource</class>
+            </dr_fastcatalogurlindexer_resource>
+        </models>
+
+        <index>
+            <indexer>
+                <catalog_url>
+                    <model>dr_fastcatalogurlindexer/catalog_indexer_url</model>
+                </catalog_url>
+            </indexer>
+        </index>
+    </global>
+
+    <default>
+        <catalog>
+            <url_rewrite_indexer>
+                <exclude_disbaled_products>1</exclude_disbaled_products>
+                <exclude_not_visible_products>1</exclude_not_visible_products>
+            </url_rewrite_indexer>
+        </catalog>
+    </default>
+</config>
