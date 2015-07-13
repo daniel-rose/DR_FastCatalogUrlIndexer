@@ -9,8 +9,8 @@ For installing this module, it gives various ways:
 * modman
   
   ```
-  modman init 			    # if modman is not initialized
-  modman clone http://... 	# gets the latest code from the master branch and links it
+  modman init 																# if modman is not initialized
+  modman clone https://github.com/daniel-rose/DR_FastCatalogUrlIndexer.git	# gets the latest code from the master branch and links it
   ```
 
 * composer
