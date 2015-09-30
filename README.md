@@ -4,7 +4,7 @@ This module reduces the time to index catalog url rewrites. Products that are di
 
 Installation
 -------
-For installing this module, it gives various ways:
+For installing this module, there are various ways:
 
 * modman
   
